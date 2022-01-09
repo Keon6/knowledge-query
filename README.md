@@ -21,16 +21,16 @@ You can contributes in 3 ways.
 Each source will go through a simple 3 step process to keep track of the status: Soruce Identification -> Source Validation -> Endpoint Design
 
 #### 1) Source Identification
-Please submit a form containing a URL source, brief description, and potential use cases.
+Please submit this [form](https://docs.google.com/forms/d/e/1FAIpQLScc_LgXy3eDnvXOLeNWyI9dMTt73UU9SmamkdmpJvP88A5ZMw/viewform?vc=0&c=0&w=1&flr=0) containing a URL source, brief description, and potential use cases.
 
 #### 2) Source Validation
-We want to make sure that the data we work on are indeed useful data. Criteria we're looking for are:
+Please submit this [form](https://docs.google.com/forms/d/e/1FAIpQLSc4JHtnEXrTfZAyv7FDyuTziOXGxwynvj5V8F4MCss7cfGpBQ/viewform?vc=0&c=0&w=1&flr=0). We want to make sure that the data we work on are indeed useful data. Criteria we're looking for are:
 
 (a) Impact: Does this data have commercial, academic, or public value? Does this data contain actually useful information? Can you back up the value by citing actual use cases on who used this data, how, and what for?
 
 (b) Validity: Is the data indeed what it says it is?
 
-If the answers to the above seem good, then let's start building endpoints
+If the answers to the above seem good, then let's start building endpoints!
 
 #### 3) Endpoint Design
 This is the most important part. This is up to your discretion but when in doubt some principle to follow are - make it easy to to use, don't drop any relevant information, and keep it simple.
