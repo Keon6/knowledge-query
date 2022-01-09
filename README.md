@@ -9,22 +9,32 @@ If you are a researcher, a developer, or just an interested individual who regul
 
 
 ## How to Contribute?
-You can contributes in 2 ways.
-1) Send us the sources: If you know where the data is & want to help others discover it too, then please help us keep track of those sources!
-2) Build endpoints for us: If you want to help design easier ways to interact with data, then please help us build th endpoints!
+You can contributes in 3 ways.
+1) Send us the sources
+  If you know where the data is & want to help others discover it too, then please help us keep track of those sources
+2) Verify the sources for us
+  If you have used a particular data source or are interested in trying it out, then help us verify the source
+3) Build endpoints for us 
+  If you want to help design easier ways to interact with data, then please help us build the endpoints
 
 ### Workflow
-Each source will go through a simple 3 step process to keep track of our status.
+Each source will go through a simple 3 step process to keep track of the status.
 
 Source Idenitification -> Source Validation -> Endpoint Design
 
+
 #### Source Identification
-You'll see under directory /unverified_sources
+Please submit a form containing a URL source, brief description, and potential use cases.
 
 #### Source Validation
-Whether you're  please make sure they are impactful enough and valid.
+We want to make sure that the data we work on are indeed useful data. Criteria we're looking for are:
 1) Impact: Does this data have commercial, academic, or public value? Does this data contain actually useful information? Can you back up the value by citing actual use cases on who used this data, how, and what for?
 2) Validity: Is the data indeed what it says it is?
+
+If the answers to the above seem valid, then let's start building the endpoints
+
+#### Endpoint Design
+This is the most important part. This is up to your discretion but when in doubt some principle to follow are - make it easy to to use, don't drop any relevant information, and keep it simple.
 
 ## Data Domains
 The below are domains suffering from data scattering problem. Please feel free to suggest new domains/subdomains.
@@ -35,7 +45,26 @@ The below are domains suffering from data scattering problem. Please feel free t
 
 ### Finance
 #### Private Markets
-- 
 #### Public Markets
-- 
+#### Crypto Markets
 
+## Keeping Track of Sources
+The repository will keep track of at which step each source is, given by the directory as below
+```
+knowledge-query/
+  identified_sources/
+    domain_1/
+      subdomain_1.txt
+      subdomain_2.txt
+      ...
+      suddomain_n.txt
+    domain_2/...
+    ...
+    domain_m/...
+  verified_sources/...
+  verification_failed/...
+  endpoints_built/...
+```
+
+Each source will be recorded as a row in each text file (in a comma separated format) with its URL, brief description, and potential use cases.
+IF the source if offline, then please upload the URL for a digitized version of it.
