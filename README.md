@@ -1,5 +1,6 @@
 # knowledge-query
 _Endpoints for the world's most impactful data scattered across the online and offline worlds._
+Please contact keon6kim@gmail.com if you're interested!
 
 ## Goal
 Finding good data sources in many research domains is often time consuming. Even when we do know a good source exists, it's difficult to navigate through it. Or sometimes, those sources don't actually cover all the data that is available out there. Let's collect all major data sources in variety of research fields (ie. Life Sciences, Metallurgy, and Finance) & create a frictionless and easy access via an API. 
